@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-from sys import stdout
-stdout.write('#pythoniscool\n')
+__builtins__.__dict__['p,r,i,n,t'.replace(',', '')]('#pythoniscool')

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-def best_score(a_dictionary):
-    if not a_dictionary:
-        return None
-     max_key = max(a_dictionary, key=lambda k: a_dictionary[k])
-     return max_key
+def multiply_by_2(a_dictionary):
+    new_dict = a_dictionary.copy()
+    for key in new_dict:
+        new_dict[key] = new_dict[key] * 2
+        return new_dict
